@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chesca</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Courier+Prime:wght@400;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background Decorative Sparkles -->
+  <div class="bg-decorations" aria-hidden="true">
+    <span class="sparkle s1">✦</span>
+    <span class="sparkle s2">✧</span>
+    <span class="sparkle s3">✦</span>
+    <span class="sparkle s4">✿</span>
+    <span class="sparkle s5">✧</span>
+  </div>
+
+  <main class="container">
+    
+    <!-- HEADER PROMPT -->
+    <header class="header-prompt" id="header-prompt">
+      <p class="sub-greeting">wsspp g! eto na boi.</p>
+    </header>
+
+    <!-- TOP-DOWN PACKAGE SCENE -->
+    <section class="scene-container">
+      
+      <div class="package-wrapper" id="package-box" role="button" tabindex="0" aria-label="Open package">
+        
+        <!-- CORRUGATED BOX OPEN FLAPS (4 sides) -->
+        <div class="box-flaps">
+          <div class="flap top-flap"></div>
+          <div class="flap bottom-flap"></div>
+          <div class="flap left-flap"></div>
+          <div class="flap right-flap"></div>
+        </div>
+
+        <!-- BOX INTERIOR -->
+        <div class="box-interior"></div>
+
+        <!-- SHIPPING LABEL ON TOP -->
+        <div class="shipping-label" id="shipping-label">
+          <div class="label-header">
+            <span class="carrier">Mama CO.</span>
+            <span class="tracking">11-10-26</span>
+          </div>
+          <div class="label-body">
+            <div class="address-block">
+              <span class="label-title">FROM:</span>
+              <span class="name">Gelo</span>
+            </div>
+            <div class="address-block">
+              <span class="label-title">TO:</span>
+              <span class="name highlight">Chesca ✿</span>
+            </div>
+          </div>
+          <div class="label-barcode">||||| | |||| ||| |||||</div>
+        </div>
+
+      </div>
+
+      <!-- CARD 1: THE LETTER -->
+      <article class="card-content letter-card hidden" id="letter-card">
+        <div class="letter-header">
+          <span class="stamp-icon">✿</span>
+        </div>
+        
+        <div class="letter-body">
+          <p>so uhh, hindi ko talaga alam paano sisimulan to HAHAHA, pero eto nga.</p>
+          <p>honestly, hindi ko rin naman inexpect na magiging ganito tayo ka close. Lamoyon, it just happened naturally. from our random conversations, asaran, little arguments, gala kasama sila, and all those small moments na parang casual lang, pero somehow naging something na inaabangan ko.</p>
+          <p>and somewhere along the way, i realized na i started liking you. not just because of how you treat me or dahil sa mga ginagawa naten sa loob ng room, but because of you. I like your personality, yong tawa, humor, even yong mga ginagawa mong maliliit na bagay without realizing it, lalaaaa lalo nayong minamassage mo ulo ko g haysss. i genuinely enjoy being around you, and i don't think you realize how much i appreciate having you.</p>
+          <p>and alam ko minsan confusing ako, kasi parang trippings lng ako minsan, and sometimes hindi ko rin alam paano i-express yung actual na nararamdaman ko. pero ayoko nmn isipin mo na tripping lng ako g.</p>
+          <p>Wala nmn ako inaasahang kapalit g, dahil sinabi ko to. gusto ko lang maging honest instead of making you guess kung ano ba talaga intentions ko. whatever you feel, i hope we can still be comfortable with each other.</p>
+          <p>anyway, yun lang naman HAHAHA. i just wanted you to know.</p>
+          <p class="signature">Eyaaaaaa🤙🤙🤙🤙</p>
+        </div>
+
+        <button class="next-btn" id="next-btn" type="button">
+          <span>Next</span>
+          <span class="arrow">➔</span>
+        </button>
+      </article>
+
+      <!-- CARD 2: BOUQUET LINK BUTTON CARD -->
+      <article class="card-content qr-card-wrapper hidden" id="qr-card">
+        <section class="qr-section">
+          <p class="qr-teaser">Meron pa isa</p>
+          
+          <div class="qr-card">
+            <div class="bouquet-message-box">
+              <span class="bouquet-emoji">💐</span>
+              <p class="bouquet-title">Baka judge moko nento sa ginawa ko</p>
+              <p class="bouquet-sub"></p>
+              
+              <!-- DIRECT CLICKABLE BUTTON -->
+              <a href="https://thebouquet.me/v/3b137929-6b34-4302-9648-67eae397f195" target="_blank" rel="noopener noreferrer" class="bouquet-link-btn">
+                <span>Open mo cuh ✿</span>
+                <span class="arrow">➔</span>
+              </a>
+            </div>
+          </div>
+
+          <p class="qr-footer"></p>
+        </section>
+      </article>
+
+    </section>
+
+    <!-- FOOTER HINT -->
+    <footer class="tap-hint" id="tap-hint">
+      <span>Tap mo g</span>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
